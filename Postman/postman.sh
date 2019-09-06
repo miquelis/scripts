@@ -30,7 +30,7 @@ if [ -L "/usr/bin/postman" ]; then
 fi
 sudo ln -s ~/Postman/Postman /usr/bin/postman
 
-echo "criando o icone"
+echo "Criando o icone"
 sudo bash -c 'cat >/usr/share/applications/postman.desktop <<EOL
 [Desktop Entry]
 Encoding=UTF-8
